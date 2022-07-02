@@ -83,7 +83,7 @@ function App() {
                         </div>
                         <div className="modal-footer">
                           <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-                          <button type="button" class="btn btn-primary" onClick={() => purchase(index)}>purchase</button>
+                          <button type="button" class="btn btn-primary" data-bs-dismiss="modal" onClick={() => purchase(index)}>purchase</button>
                         </div>
                       </div>
                     </div>
